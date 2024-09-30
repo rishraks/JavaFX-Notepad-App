@@ -1,0 +1,26 @@
+package org.notepad.notepad;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+
+public class Notepad extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(Notepad.class.getResource("Notepad.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Notepad");
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("/org/notepad/Images/Notepad.png")));
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
