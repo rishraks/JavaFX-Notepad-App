@@ -51,4 +51,4 @@ Make sure you copy the entire structure correctly, especially the triple backtic
 
 ## About
 The UI of the JavaFX Notepad App is designed through Scene Builder, providing a visually appealing and intuitive interface for users. The application is developed in Java, leveraging the capabilities of JavaFX for a modern user experience.
-Feel free to customize any section or let me know if you’d like to add anything else!
+
