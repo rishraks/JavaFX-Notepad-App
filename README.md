@@ -41,13 +41,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-### Key Points:
-1. **Code Snippets**: The Git commands are enclosed within a separate code block under the **Installation** section.
-2. **Distinct Sections**: Each section is clearly defined, making it easy to navigate the document.
-3. **No Overlap**: The command snippet should not bleed into other sections, ensuring clarity.
-
-Make sure you copy the entire structure correctly, especially the triple backticks to denote code blocks, so that they are treated as separate sections in Markdown. This will help maintain the organization of your README. Let me know if you need any more help!
-
 
 ## About
 The UI of the JavaFX Notepad App is designed through Scene Builder, providing a visually appealing and intuitive interface for users. The application is developed in Java, leveraging the capabilities of JavaFX for a modern user experience.
